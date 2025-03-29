@@ -1,12 +1,61 @@
-# React + Vite
+EmployWise User Management
+Project Overview
+EmployWise is a React-based user management application that integrates with the Reqres API to perform user authentication, listing, editing, and deletion.
+Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+User Authentication
+Paginated User Listing
+Edit User Details
+Delete Users
+Responsive Design
+Animated Interactions
 
-Currently, two official plugins are available:
+Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React
+React Router
+Context API
+Tailwind CSS
+Framer Motion
+Axios
 
-## Expanding the ESLint configuration
+Prerequisites
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Node.js (v14 or later)
+npm or yarn
+
+Installation
+
+Clone the repository
+
+bashCopygit clone https://github.com/amarnathsd/emplyeewise
+cd emplyeewise
+
+Deplyment = https://emplyeewise-tau.vercel.app/
+
+Install dependencies
+
+bashCopynpm install
+# or
+yarn install
+
+Start the development server
+
+bashCopynpm start
+# or
+yarn start
+Environment Variables
+No additional environment variables are required for this project.
+Login Credentials
+
+Email: eve.holt@reqres.in
+Password: cityslicka
+
+Deployment
+The application can be deployed to platforms like Netlify, Vercel, or Heroku with minimal configuration.
+Additional Notes
+
+The application uses mock API from Reqres.in
+Token is stored in localStorage for session persistence
+Responsive design works on mobile and desktop
+env file is not added for easy to check process.
